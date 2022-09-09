@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css"> 
+    <title>e-commerce</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar section-padding">
+            <img src="img/logo.png" alt="">
+            <div>
+                <ul id="navbar" class="navbar-ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="lg-bag"><a class="active" href="cart.html"> <i class="fa-solid fa-bag-shopping fa=lg"></i></a></li>
+                    <i id="close" class="fa-solid fa-xmark"></i>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href=""> <i class="fa-solid fa-bag-shopping fa=lg"></i></a>
+
+                <i id="bar" class="fa-solid fa-bars"></i>
+
+            </div>
+        </nav>
+    </header>
+    <!-- model section -->
+    <section id="page-header" class="aboute-header">
+
+        <h2>#let's_talke</h2>
+        <p>LEAVE A MESSAGE, We Love to hear from you</p>
+    </section>   
+    <!-- cart -->
+    <section id="cart" class="section-padding">
+        <table width="100%" >
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/products/f1.jpg" alt=""></td>
+                    <td>Carton astronaut t-shirt</td>
+                    <td>$115.52</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>$115.52</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/products/f2.jpg" alt=""></td>
+                    <td>Carton astronaut t-shirt</td>
+                    <td>$115.52</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>$115.52</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="./img/products/f3.jpg" alt=""></td>
+                    <td>Carton astronaut t-shirt</td>
+                    <td>$115.52</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>$115.52</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- cart add -->
+    <section id="cart-add" class="section-padding">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
+            <form action="">
+                <input type="text" placeholder="enter coupon code"name="" id="">
+                <button >Apply</button>
+            </form>
+        </div>
+        <div id="subtotal">
+            <h3>cart total</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td>$ 555</td>
+                </tr>
+                <tr>
+                    <td>shipping</td>
+                    <td>free</td>
+                </tr>
+                <tr><td><strong>Total</strong></td></tr>
+                <tr><td><strong>$555</strong></td></tr>
+
+            </table>
+            <button>Proced to checkout</button>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-home section-padding">
+        <div class="footer-container">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>contact</h4>
+                <p> <strong>Address :</strong> 562 wellington Road,street 32,san francesco </p>
+                <p> <strong>Hours::</strong> 10:00 -18:00 ,Mon - sat</p>
+                <div class="follow">follow us</div>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="">about us</a>
+                <a href="">delevery information</a>
+                <a href="">privacy policy</a>
+                <a href="">terms & conditions</a>
+                <a href="">contact us</a>
+            </div>
+            <div class="col">
+
+                <h4>My Account</h4>
+                <a href="">sign in</a>
+                <a href="">view</a>
+                <a href="">my wishlist</a>
+                <a href="">track my order</a>
+                <a href="">help</a>
+            </div>
+            <div class="col install">
+                <h4>install app</h4>
+                <p>from App Store or Goole play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+
+                </div>
+                <p>secured payment gateways</p>
+                <img src="./img/pay/pay.png" alt="">
+            </div>
+            <div class="copyright">
+                <h5>copyrighy & reference project</h5>
+                <p>@ 2021, Tech2 etc - HTML CSS ECOMMERCE Templete</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
